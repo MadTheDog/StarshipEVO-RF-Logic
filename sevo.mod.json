@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "local.sevo.radiologic",
+  "name": "RF Logic",
+  "version": "0.2.3",
+  "payloadRoot": "payload",
+  "repository": "MadTheDog/StarshipEVO-RF-Logic",
+  "dependencies": {},
+  "conflicts": [],
+  "fixedBrickIds": [1004, 1005],
+  "fixedShapeIds": []
+}

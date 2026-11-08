@@ -1,0 +1,9 @@
+test-install/
+test-profile/
+local-evidence/
+.build-home/
+.packages/
+dist/
+compatibility-baselines/
+**/bin/
+**/obj/

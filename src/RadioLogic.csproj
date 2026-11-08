@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework><LangVersion>latest</LangVersion>
+    <AssemblyName>RadioLogic</AssemblyName><Version>0.2.3</Version><NuGetAudit>false</NuGetAudit>
+    <ManagedDir Condition="'$(ManagedDir)' == ''">$(MSBuildThisFileDirectory)..\compatibility-baselines\26451593\Managed</ManagedDir>
+    <LoaderDir Condition="'$(LoaderDir)' == ''">$(MSBuildThisFileDirectory)..\test-install\SEVO\BepInEx\core</LoaderDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BepInEx"><HintPath>$(LoaderDir)\BepInEx.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="0Harmony"><HintPath>$(LoaderDir)\0Harmony.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Mono.Cecil"><HintPath>$(LoaderDir)\Mono.Cecil.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="$(ManagedDir)\UnityEngine*.dll"><Private>false</Private></Reference>
+    <Reference Include="$(ManagedDir)\Assembly-CSharp.dll;$(ManagedDir)\Assembly-CSharp-firstpass.dll;$(ManagedDir)\Unity.Collections.dll;$(ManagedDir)\Unity.Mathematics.dll;$(ManagedDir)\Mirror.dll;$(ManagedDir)\MessagePack.dll;$(ManagedDir)\MessagePack.Annotations.dll;$(ManagedDir)\System.Memory.dll"><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

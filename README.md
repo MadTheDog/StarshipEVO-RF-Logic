@@ -22,11 +22,11 @@ Each transmitter takes one logic input. Use a logic gate to combine inputs. In *
 
 | Antenna size level | Block size | RF range |
 | --- | ---: | ---: |
-| 1 | 1/8 block | 25 m |
-| 2 | 1/4 block | 50 m |
-| 3 | 1/2 block | 125 m |
-| 4 | 1 block | 500 m |
-| 5 | 2 blocks | 2,000 m |
+| 1 | 1/8 m | 25 m |
+| 2 | 1/4 m | 50 m |
+| 3 | 1/2 m | 125 m |
+| 4 | 1 m | 500 m |
+| 5 | 2 m | 2,000 m |
 
 Both antennas must be within range of each other. The smaller range governs the link. The package claims fixed brick IDs **1004** and **1005**. This is a solo prototype. Back up worlds containing mod blocks before changing the installed mod set.
 

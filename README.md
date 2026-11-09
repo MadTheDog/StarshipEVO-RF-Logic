@@ -20,13 +20,13 @@ The rendered solo fixture passed 23 native checks with Keel 0.1.6. The release a
 
 Each transmitter takes one logic input. Use a logic gate to combine inputs. In **Signal** mode, the receiver mirrors the sustained input, goes OFF when disconnected, and restores the current input on reconnection. In **Pulse** mode, it emits a timed output for a rising edge while connected. Disconnected pulses are discarded.
 
-| Antenna size | RF range |
-| --- | ---: |
-| 1 | 25 m |
-| 2 | 50 m |
-| 3 | 125 m |
-| 4 | 500 m |
-| 5 | 2,000 m |
+| Antenna size level | Block size | RF range |
+| --- | ---: | ---: |
+| 1 | 1/8 block | 25 m |
+| 2 | 1/4 block | 50 m |
+| 3 | 1/2 block | 125 m |
+| 4 | 1 block | 500 m |
+| 5 | 2 blocks | 2,000 m |
 
 Both antennas must be within range of each other. The smaller range governs the link. The package claims fixed brick IDs **1004** and **1005**. This is a solo prototype. Back up worlds containing mod blocks before changing the installed mod set.
 
